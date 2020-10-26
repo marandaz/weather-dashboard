@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/marandaz/weather-dashboard">
-    <img src="./Assets/quiz-time.jpeg" alt="Logo" width="max" height="600px">
+    <img src="./Assets/dash.png" alt="Logo" width="max" height="600px">
   </a>
 
   <h3 align="center">Code Quiz</h3>
@@ -43,12 +43,6 @@
 
 <p align="center">
 <a href="https://github.com/marandaz/weather-dashboard/">
-    <img src="Assets/page-load.png" alt="on initial page load"/>
-    .
-    <img src="Assets/startquiz.png" alt="on first click"/>
-    .
-    <img src="Assets/score.png" alt="score"/>
-<!-- MARANDA TO UPDATE LINK ABOVE SO IT WORKS -->
 </a>
 </p>
 

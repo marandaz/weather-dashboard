@@ -26,7 +26,7 @@ $(document).ready(function () {
       });
     }
     function buildQueryURL(queryParams) {
-      let apiKeyEl = "&appid=0c4095be8ee8948edd8333313900b9cb";
+      let apiKeyEl = "&appid=a06616f61f91523719a0a3d477f3df93";
   
       if (queryParams === "") {
         return buildQueryURL();
@@ -42,7 +42,7 @@ $(document).ready(function () {
       return queryURL;
     }
     function buildQueryURL5(queryParams) {
-      let apiKeyEl = "&appid=0c4095be8ee8948edd8333313900b9cb";
+      let apiKeyEl = "&appid=a06616f61f91523719a0a3d477f3df93";
   
       let queryURL5 =
         "https://api.openweathermap.org/data/2.5/forecast?q=" +
@@ -61,7 +61,7 @@ $(document).ready(function () {
         console.log(results);
         let latEl = results.coord.lat;
         let lonEl = results.coord.lon;
-        let apiKeyEl = "0c4095be8ee8948edd8333313900b9cb";
+        let apiKeyEl = "a06616f61f91523719a0a3d477f3df93";
         let queryURLuv =
           "http://api.openweathermap.org/data/2.5/uvi?lat=" +
           latEl +
