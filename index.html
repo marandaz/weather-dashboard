@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
-    
+    <header>
+        <ul class="nav justify-content-center navbar-dark bg-dark text-light">
+            <li class="nav-item">
+                <h1 class="pt-2 pb-2">Weather Dashboard</h1>
+            </li>
+        </ul>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <aside class="col-md-3 px-1 bg-light pt-2">
+                <div class="container mt-3">
+                    <form class="form-inline ml-1 mt-5">
+                        <input id="citySearch" class="form-control mr-sm-2" type="search" placeholder="City"
+                            aria-label="Search" />
+                        <button id="searchCity" class="btn btn-secondary my-2 my-sm-0" type="submit">
+                            Search
+                        </button>
+                    </form>
+            </aside>
+
+            <header class="border-bottom border-grey">
+                <h4 class="header pl-2 py-2" id="date"></h4>
+            </header>
+
+            <div class="container button  mt-2">
+                <div type="button" id="saved-search">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <br>
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <h2 id="cityName">City: </h2>
+                            <br />
+                            <p id="temp">Temp: </p>
+                            <p id="humidity">Humidity: </p>
+                            <p id="wind">Wind Speed: </p>
+                            <p>
+                                UV Index:
+                                <span class="text-white rounded p-2" id="UV"></span>
+                                <i class="ml-1" id="icon"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <table class="table">
+                <tbody>
+
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
