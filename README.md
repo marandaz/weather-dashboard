@@ -127,7 +127,7 @@ Project Link: [https://marandaz.github.io/weather-dashboard/](https://marandaz.g
 
 * **Instructors:** Shout out to my Bootcamp instructor, John Young, for helping pave the path to a brighter future. 
 
-* [Page Logo](https://readwrite.com/2019/10/08/why-you-love-online-quizzes/)
+* [5-Col Layout with Bootstrap](https://www.cattlegrid.info/2018/06/21/5-column-layout-with-bootstrap-4.html) Shout out to the geniuses who put this article together. It was a game changer realizing it was as easy as 2.4 (divide 12 by 5.. and just roll)
 
 
 
